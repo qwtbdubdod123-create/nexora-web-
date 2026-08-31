@@ -1,123 +1,628 @@
-<!DOCTYPE html><html lang="fa" dir="rtl">
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Nexora Web</title><style>
-*{box-sizing:border-box;margin:0;padding:0}
-body{font-family:Tahoma,Arial,sans-serif;background:#f5f7fb;color:#172033;line-height:1.8}
-header{background:#111827;color:white;padding:18px 6%;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;z-index:10}
-.logo{font-size:25px;font-weight:bold}
-nav a{color:white;text-decoration:none;margin:0 7px;font-size:14px}
-.hero{padding:90px 20px;text-align:center;background:linear-gradient(135deg,#111827,#2563eb);color:white}
-.hero h1{font-size:38px;margin-bottom:15px}
-.hero p{font-size:18px;margin-bottom:25px}
-.button{display:inline-block;background:white;color:#2563eb;padding:12px 25px;border-radius:8px;text-decoration:none;font-weight:bold}
-section{max-width:1100px;margin:auto;padding:60px 20px}
-.title{text-align:center;font-size:30px;margin-bottom:30px}
-.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
-.card,.product,.contact{background:white;padding:25px;border-radius:15px;text-align:center;box-shadow:0 5px 20px rgba(0,0,0,.07)}
-.card h3,.product h3{margin-bottom:10px}
-.card p,.product p{color:#64748b}
-.product-icon{font-size:55px}
-.price{display:block;color:#2563eb;font-weight:bold;font-size:19px;margin:12px}
-.buy{display:inline-block;background:#2563eb;color:white;padding:8px 18px;border-radius:7px;text-decoration:none}
-.whatsapp{display:inline-block;margin-top:20px;background:#25D366;color:white;padding:14px 25px;border-radius:50px;text-decoration:none;font-weight:bold}
-footer{background:#111827;color:white;text-align:center;padding:25px}
-@media(max-width:700px){
-header{flex-direction:column;gap:10px}
-.hero h1{font-size:29px}
-nav a{font-size:12px}
-}
-</style></head><body><header>
-<div class="logo">Nexora Web</div>
-<nav>
-<a href="#home">خانه</a>
-<a href="#services">خدمات</a>
-<a href="#portfolio">نمونه‌کارها</a>
-<a href="#shop">فروشگاه</a>
-<a href="#contact">تماس</a>
-</nav>
-</header><section class="hero" id="home">
-<h1>ایده‌ات را به یک سایت حرفه‌ای تبدیل می‌کنیم.</h1>
-<p>طراحی سایت مدرن، سریع و سازگار با موبایل برای کسب‌وکارهای مختلف.</p>
-<a class="button" href="#contact">شروع همکاری</a>
-</section><section id="services">
-<h2 class="title">خدمات Nexora Web</h2>
-<div class="cards">
-<div class="card">
-<h3>🌐 طراحی سایت</h3>
-<p>طراحی سایت حرفه‌ای برای معرفی کسب‌وکار و خدمات شما.</p>
-</div>
-<div class="card">
-<h3>🛒 فروشگاه اینترنتی</h3>
-<p>طراحی فروشگاه اینترنتی زیبا برای نمایش محصولات.</p>
-</div>
-<div class="card">
-<h3>📱 طراحی موبایل‌پسند</h3>
-<p>نمایش صحیح سایت در موبایل، تبلت و کامپیوتر.</p>
-</div>
-<div class="card">
-<h3>⚡ سایت سریع</h3>
-<p>طراحی صفحات سبک و سریع برای تجربه بهتر کاربران.</p>
-</div>
-</div>
-</section><section id="portfolio">
-<h2 class="title">نمونه‌کارها</h2>
-<div class="cards">
-<div class="card">
-<div class="product-icon">🏢</div>
-<h3>سایت شرکتی</h3>
-<p>نمونه طراحی سایت برای یک شرکت خدماتی.</p>
-</div>
-<div class="card">
-<div class="product-icon">🛍️</div>
-<h3>فروشگاه اینترنتی</h3>
-<p>نمونه طراحی فروشگاه برای فروش محصولات.</p>
-</div>
-<div class="card">
-<div class="product-icon">🍔</div>
-<h3>سایت رستوران</h3>
-<p>نمونه طراحی سایت برای معرفی رستوران و منو.</p>
-</div>
-</div>
-</section><section id="shop">
-<h2 class="title">نمونه فروشگاه اینترنتی</h2>
-<div class="cards"><div class="product">
-<div class="product-icon">👟</div>
-<h3>کفش اسپرت</h3>
-<p>کفش مناسب استفاده روزمره</p>
-<span class="price">1,250,000 تومان</span>
-<a class="buy" href="#contact">سفارش محصول</a>
-</div><div class="product">
-<div class="product-icon">🎧</div>
-<h3>هدفون بی‌سیم</h3>
-<p>مناسب موسیقی و استفاده روزانه</p>
-<span class="price">890,000 تومان</span>
-<a class="buy" href="#contact">سفارش محصول</a>
-</div><div class="product">
-<div class="product-icon">⌚</div>
-<h3>ساعت هوشمند</h3>
-<p>طراحی مدرن و مناسب استفاده روزانه</p>
-<span class="price">1,750,000 تومان</span>
-<a class="buy" href="#contact">سفارش محصول</a>
-</div><div class="product">
-<div class="product-icon">🎒</div>
-<h3>کوله‌پشتی</h3>
-<p>مناسب مدرسه، دانشگاه و سفر</p>
-<span class="price">650,000 تومان</span>
-<a class="buy" href="#contact">سفارش محصول</a>
-</div></div>
-</section><section id="contact">
-<div class="contact">
-<h2 class="title">شروع همکاری</h2>
-<p>برای سفارش طراحی سایت با Nexora Web در ارتباط باشید.</p><a class="whatsapp"
-href="https://wa.me/989939543069"
-target="_blank">
-💬 ارتباط در واتساپ
-</a>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-</div>
-</section><footer>
-<p>© 2026 Nexora Web - تمامی حقوق محفوظ است.</p>
-</footer></body>
+  <title>Nexora Web | طراحی سایت حرفه‌ای</title>
+  <meta name="description" content="Nexora Web - طراحی سایت حرفه‌ای، سریع و مدرن برای کسب‌وکارها">
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: Tahoma, Arial, sans-serif;
+      background: #0b1020;
+      color: #f8fafc;
+      line-height: 1.8;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .container {
+      width: min(1100px, 92%);
+      margin: auto;
+    }
+
+    /* NAVBAR */
+
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(11,16,32,.92);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid rgba(255,255,255,.08);
+    }
+
+    nav {
+      min-height: 70px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+    }
+
+    .logo {
+      font-size: 23px;
+      font-weight: bold;
+      letter-spacing: .5px;
+    }
+
+    .logo span {
+      color: #38bdf8;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 22px;
+      list-style: none;
+      font-size: 14px;
+    }
+
+    .nav-links a:hover {
+      color: #38bdf8;
+    }
+
+    /* HERO */
+
+    .hero {
+      min-height: 650px;
+      display: flex;
+      align-items: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero::before {
+      content: "";
+      position: absolute;
+      width: 380px;
+      height: 380px;
+      background: #2563eb;
+      filter: blur(140px);
+      opacity: .25;
+      top: 60px;
+      right: -100px;
+    }
+
+    .hero-content {
+      position: relative;
+      max-width: 760px;
+      padding: 80px 0;
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 7px 15px;
+      border: 1px solid rgba(56,189,248,.35);
+      border-radius: 30px;
+      color: #7dd3fc;
+      font-size: 13px;
+      margin-bottom: 22px;
+      background: rgba(56,189,248,.07);
+    }
+
+    h1 {
+      font-size: clamp(38px, 7vw, 70px);
+      line-height: 1.2;
+      margin-bottom: 22px;
+    }
+
+    h1 span {
+      color: #38bdf8;
+    }
+
+    .hero p {
+      color: #cbd5e1;
+      font-size: 18px;
+      max-width: 650px;
+      margin-bottom: 32px;
+    }
+
+    .buttons {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 13px 22px;
+      border-radius: 12px;
+      font-weight: bold;
+      transition: .25s;
+    }
+
+    .btn-primary {
+      background: #2563eb;
+    }
+
+    .btn-primary:hover {
+      transform: translateY(-3px);
+      background: #1d4ed8;
+    }
+
+    .btn-outline {
+      border: 1px solid #334155;
+      color: #e2e8f0;
+    }
+
+    .btn-outline:hover {
+      border-color: #38bdf8;
+      color: #38bdf8;
+    }
+
+    /* SECTIONS */
+
+    section {
+      padding: 85px 0;
+    }
+
+    .section-title {
+      text-align: center;
+      margin-bottom: 45px;
+    }
+
+    .section-title h2 {
+      font-size: 34px;
+      margin-bottom: 8px;
+    }
+
+    .section-title p {
+      color: #94a3b8;
+    }
+
+    /* SERVICES */
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 18px;
+    }
+
+    .card {
+      background: #111827;
+      border: 1px solid #1e293b;
+      border-radius: 18px;
+      padding: 25px;
+      transition: .25s;
+    }
+
+    .card:hover {
+      transform: translateY(-6px);
+      border-color: #38bdf8;
+    }
+
+    .icon {
+      font-size: 32px;
+      margin-bottom: 12px;
+    }
+
+    .card h3 {
+      margin-bottom: 8px;
+    }
+
+    .card p {
+      color: #94a3b8;
+      font-size: 14px;
+    }
+
+    /* PORTFOLIO */
+
+    .portfolio {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+
+    .project {
+      overflow: hidden;
+      background: #111827;
+      border: 1px solid #1e293b;
+      border-radius: 20px;
+    }
+
+    .project-image {
+      height: 180px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 55px;
+      background: linear-gradient(135deg, #172554, #0f172a);
+    }
+
+    .project-info {
+      padding: 22px;
+    }
+
+    .project-info p {
+      color: #94a3b8;
+      font-size: 14px;
+      margin-top: 6px;
+    }
+
+    /* PRICING */
+
+    .pricing {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+
+    .price-card {
+      background: #111827;
+      border: 1px solid #1e293b;
+      border-radius: 20px;
+      padding: 30px;
+      text-align: center;
+    }
+
+    .price-card.featured {
+      border-color: #38bdf8;
+      transform: scale(1.03);
+    }
+
+    .price {
+      font-size: 30px;
+      font-weight: bold;
+      margin: 20px 0;
+    }
+
+    .price small {
+      font-size: 13px;
+      color: #94a3b8;
+    }
+
+    .price-card ul {
+      list-style: none;
+      color: #cbd5e1;
+      margin-bottom: 25px;
+    }
+
+    .price-card li {
+      margin: 8px 0;
+    }
+
+    /* CTA */
+
+    .cta {
+      background: linear-gradient(135deg, #172554, #0f172a);
+      border: 1px solid #1e3a8a;
+      border-radius: 25px;
+      padding: 55px 30px;
+      text-align: center;
+    }
+
+    .cta h2 {
+      font-size: 36px;
+      margin-bottom: 12px;
+    }
+
+    .cta p {
+      color: #cbd5e1;
+      margin-bottom: 25px;
+    }
+
+    /* FOOTER */
+
+    footer {
+      border-top: 1px solid #1e293b;
+      padding: 30px 0;
+      color: #94a3b8;
+      text-align: center;
+      font-size: 13px;
+    }
+
+    /* MOBILE */
+
+    @media (max-width: 850px) {
+      .grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .portfolio {
+        grid-template-columns: 1fr;
+      }
+
+      .pricing {
+        grid-template-columns: 1fr;
+      }
+
+      .price-card.featured {
+        transform: none;
+      }
+
+      .nav-links {
+        gap: 10px;
+        font-size: 12px;
+      }
+    }
+
+    @media (max-width: 560px) {
+      nav {
+        flex-direction: column;
+        justify-content: center;
+        padding: 14px 0;
+      }
+
+      .nav-links {
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+
+      .hero {
+        min-height: auto;
+      }
+
+      .hero-content {
+        padding: 65px 0;
+      }
+
+      .hero p {
+        font-size: 16px;
+      }
+
+      .grid {
+        grid-template-columns: 1fr;
+      }
+
+      section {
+        padding: 65px 0;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div class="container">
+    <nav>
+      <div class="logo">Nexora <span>Web</span></div>
+
+      <ul class="nav-links">
+        <li><a href="#home">خانه</a></li>
+        <li><a href="#services">خدمات</a></li>
+        <li><a href="#portfolio">نمونه‌کارها</a></li>
+        <li><a href="#pricing">قیمت‌ها</a></li>
+        <li><a href="#contact">تماس</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+<section class="hero" id="home">
+  <div class="container">
+    <div class="hero-content">
+
+      <div class="badge">طراحی سایت مدرن و حرفه‌ای</div>
+
+      <h1>
+        ایده‌ات را به یک
+        <span>سایت حرفه‌ای</span>
+        تبدیل می‌کنیم.
+      </h1>
+
+      <p>
+        طراحی سایت سریع، زیبا و موبایل‌پسند برای کسب‌وکارها،
+        فروشگاه‌ها و برندهای شخصی.
+      </p>
+
+      <div class="buttons">
+        <a class="btn btn-primary" href="#contact">
+          شروع همکاری
+        </a>
+
+        <a class="btn btn-outline" href="#portfolio">
+          مشاهده نمونه‌کارها
+        </a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<section id="services">
+  <div class="container">
+
+    <div class="section-title">
+      <h2>خدمات ما</h2>
+      <p>راهکارهای حرفه‌ای برای حضور بهتر کسب‌وکار شما در اینترنت</p>
+    </div>
+
+    <div class="grid">
+
+      <div class="card">
+        <div class="icon">🌐</div>
+        <h3>طراحی سایت</h3>
+        <p>طراحی سایت اختصاصی و مدرن متناسب با نیاز کسب‌وکار شما.</p>
+      </div>
+
+      <div class="card">
+        <div class="icon">🛒</div>
+        <h3>فروشگاه اینترنتی</h3>
+        <p>طراحی فروشگاه آنلاین برای معرفی و فروش محصولات.</p>
+      </div>
+
+      <div class="card">
+        <div class="icon">📱</div>
+        <h3>موبایل‌پسند</h3>
+        <p>نمایش صحیح و حرفه‌ای سایت در موبایل، تبلت و کامپیوتر.</p>
+      </div>
+
+      <div class="card">
+        <div class="icon">⚡</div>
+        <h3>سایت سریع</h3>
+        <p>صفحات سبک و سریع برای تجربه بهتر کاربران.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<section id="portfolio">
+  <div class="container">
+
+    <div class="section-title">
+      <h2>نمونه‌کارها</h2>
+      <p>چند نمونه از پروژه‌هایی که می‌توانیم برای مشتریان طراحی کنیم</p>
+    </div>
+
+    <div class="portfolio">
+
+      <div class="project">
+        <div class="project-image">🏢</div>
+        <div class="project-info">
+          <h3>سایت شرکتی</h3>
+          <p>طراحی سایت مدرن برای شرکت خدماتی و معرفی خدمات.</p>
+        </div>
+      </div>
+
+      <div class="project">
+        <div class="project-image">🛍️</div>
+        <div class="project-info">
+          <h3>فروشگاه آنلاین</h3>
+          <p>نمونه طراحی فروشگاه اینترنتی برای فروش محصولات.</p>
+        </div>
+      </div>
+
+      <div class="project">
+        <div class="project-image">🍔</div>
+        <div class="project-info">
+          <h3>سایت رستوران</h3>
+          <p>طراحی سایت رستوران با معرفی منو و اطلاعات تماس.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<section id="pricing">
+  <div class="container">
+
+    <div class="section-title">
+      <h2>پکیج‌های طراحی سایت</h2>
+      <p>قیمت‌ها نمونه هستند و می‌توانند براساس پروژه تغییر کنند.</p>
+    </div>
+
+    <div class="pricing">
+
+      <div class="price-card">
+        <h3>شروع</h3>
+
+        <div class="price">
+          ۳ میلیون
+          <small>تومان</small>
+        </div>
+
+        <ul>
+          <li>✓ سایت معرفی</li>
+          <li>✓ طراحی موبایل‌پسند</li>
+          <li>✓ صفحه تماس</li>
+          <li>✓ تحویل پروژه</li>
+        </ul>
+
+        <a href="#contact" class="btn btn-outline">
+          درخواست سفارش
+        </a>
+      </div>
+
+
+      <div class="price-card featured">
+        <h3>حرفه‌ای</h3>
+
+        <div class="price">
+          ۶ میلیون
+          <small>تومان</small>
+        </div>
+
+        <ul>
+          <li>✓ طراحی اختصاصی</li>
+          <li>✓ چند صفحه</li>
+          <li>✓ طراحی موبایل‌پسند</li>
+          <li>✓ بهینه‌سازی اولیه</li>
+        </ul>
+
+        <a href="#contact" class="btn btn-primary">
+          انتخاب پکیج
+        </a>
+      </div>
+
+
+      <div class="price-card">
+        <h3>فروشگاهی</h3>
+
+        <div class="price">
+          ۱۰ میلیون
+          <small>تومان</small>
+        </div>
+
+        <ul>
+          <li>✓ فروشگاه اینترنتی</li>
+          <li>✓ صفحات محصولات</li>
+          <li>✓ طراحی اختصاصی</li>
+          <li>✓ امکانات قابل توسعه</li>
+        </ul>
+
+        <a href="#contact" class="btn btn-outline">
+          درخواست سفارش
+        </a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<section id="contact">
+  <div class="container">
+
+    <div class="cta">
+
+      <h2>آماده‌ای سایتت را بسازیم؟</h2>
+
+      <p>
+        برای دریافت مشاوره و سفارش طراحی سایت با ما در ارتباط باشید.
+      </p>
+
+      <a
+        class="btn btn-primary"
+        href="https://wa.me/989939543069"
+        target="_blank">
+        💬 ارتباط در واتساپ
+      </a>
+
+    </div>
+
+  </div>
+</section>
+
+</main>
+
+
+<footer>
+  <div class="container">
+    © 2026 Nexora Web — تمامی حقوق محفوظ است.
+  </div>
+</footer>
+
+</body>
 </html>
